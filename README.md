@@ -1,1 +1,1 @@
-rails new app --skip-test -d postgresql -m template.rb
+rails new app --skip-test -d postgresql -c tailwind -m template.rb
