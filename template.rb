@@ -3,6 +3,11 @@ gem 'html2haml'
 
 gem_group :development, :test do
   gem 'rspec-rails'
+  gem 'pry'
+end
+
+gem_group :test do
+  gem 'capybara'
 end
 
 after_bundle do
